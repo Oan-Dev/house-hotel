@@ -89,6 +89,10 @@ header.active .logo a{
     background-color: var(--secondary-color);
 }
 
+header.active nav a {
+    color: var(--txt-color);
+ }
+
 
 
 

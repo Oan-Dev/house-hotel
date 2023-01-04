@@ -92,17 +92,6 @@ header.active .logo a{
 
 
 
-@media screen and (max-width: 768px) {
-    /* header, nav {
-        flex-direction: column;
-    }
-    .flag {
-        width: 100%;
-        justify-content: center;
-    } */
-}
-
-
 /* FOOTER */
 footer {
     min-height: 30px;
@@ -119,3 +108,27 @@ footer {
     text-transform: uppercase;
    
  }
+/** RESPONSIVE */
+
+/** MOBILE */
+
+@media screen and (max-width: 768px) {
+    header, nav {
+        flex-direction: column;
+    }
+    nav {
+        max-height: 15vh;
+        gap: 1.5px;;
+        flex-wrap: nowrap;
+    }
+    nav a {
+        font-size: 10px;
+    }
+    .flag {
+        width: 100%;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 809px){
+    
+}

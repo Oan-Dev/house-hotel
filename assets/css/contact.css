@@ -3,7 +3,7 @@ main {
     width: 100%;
     /* background-color: blue; */
     background-image: linear-gradient(rgba(0, 0, 0, 0.638), transparent), url("../img/HouseHotelPool-2_1920.jpg");
-
+    min-height: 120vh;
     padding-block: 20px;
 }
 .contact {

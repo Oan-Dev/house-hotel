@@ -101,7 +101,7 @@ footer {
     min-height: 30px;
     /* background-color: beige; */
     box-shadow: 0px 4px 8px 0 hsla(0, 0%, 31%, 0.796);
-    margin-top: 20px;
+    /* margin-top: 20px; */
     padding: 10px 30px;
     display: flex;
     justify-content: space-between;

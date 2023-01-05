@@ -3,12 +3,15 @@ main {
     width: 100%;
     /* background-color: blue; */
     background-image: linear-gradient(rgba(0, 0, 0, 0.638), transparent), url("../img/HouseHotelPool-2_1920.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     min-height: 120vh;
-    padding-block: 20px;
+    padding-block: 80px;
 }
 .contact {
+    margin-top: 150px;
     width: 400px;
-    min-height: 300px;
+    min-height: 600px;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -42,7 +45,7 @@ form {
     justify-content: center;
     align-items: center;
     gap: 20px;
-    background-color: rgb(17, 90, 17);
+    background-color: rgba(43, 56, 199, 0.831);
     border-radius: 15px;
     padding: 20px;
     color: #fff;
@@ -61,5 +64,12 @@ form label {
     padding: 5px;
     border-radius: 8px;
     /* background-color: rgb(18, 180, 18); */
-    background-color: #fff;
+    background-color: rgba(43, 56, 199, 0.944);
+    color: #ffff;
 }
+
+/* @media screen and (min-width: 768px) {
+    header.active main {
+        padding-block: 50px;
+    }
+} */

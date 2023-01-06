@@ -148,7 +148,7 @@ footer {
 
 
 @media screen and (max-width: 768px) {
-    header, nav {
+    nav {
         flex-direction: column;
     }
     nav {
@@ -167,7 +167,7 @@ footer {
     }
     nav.active {
         left : 0;
-        
+
     }
 
     nav a {

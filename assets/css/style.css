@@ -60,6 +60,14 @@ header {
 }
 header, nav a  {
     color: var(--secondary-color);
+    transition: 0.7s ease;
+    -webkit-transition: 0.7s ease;
+    -moz-transition: 0.7s ease;
+    -ms-transition: 0.7s ease;
+    -o-transition: 0.7s ease;
+}
+nav a:hover {
+color: dodgerblue;
 }
 
 .logo a {
@@ -92,6 +100,24 @@ header.active .logo a{
 header.active nav a {
     color: var(--txt-color);
  }
+
+ .hamburger { 
+    display: none;
+    cursor: pointer;
+ }
+
+ .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
 
 
 
@@ -127,14 +153,50 @@ footer {
     }
     nav {
         max-height: 15vh;
-        gap: 1.5px;;
+        gap: 1.5px;
         flex-wrap: nowrap;
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        transition: 0.3s;
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+        -ms-transition: 0.3s;
+        -o-transition: 0.3s;
     }
+    nav.active {
+        left : 0;
+        
+    }
+
     nav a {
         font-size: 10px;
     }
+   
     .flag {
         width: 100%;
         justify-content: center;
     }
+    .hamburger {
+        display: block;
+    }
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1) {
+        transform:  translateY(8px) rotate(45deg);
+        -webkit-transform:  translateY(8px) rotate(45deg);
+        -moz-transform:  translateY(8px) rotate(45deg);
+        -ms-transform:  translateY(8px) rotate(45deg);
+        -o-transform:  translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3) {
+        transform:  translateY(-8px) rotate(-45deg);
+        -webkit-transform:  translateY(-8px) rotate(-45deg);
+        -moz-transform:  translateY(-8px) rotate(-45deg);
+        -ms-transform:  translateY(-8px) rotate(-45deg);
+        -o-transform:  translateY(-8px) rotate(-45deg);
+    }
+
 }

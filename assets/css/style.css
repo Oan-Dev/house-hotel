@@ -104,7 +104,7 @@ header.active nav a {
  .hamburger { 
     display: none;
     cursor: pointer;
- }
+  }
 
  .bar {
     display: block;

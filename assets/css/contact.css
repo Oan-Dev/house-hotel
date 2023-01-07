@@ -2,7 +2,7 @@
 main {
     width: 100%;
     /* background-color: blue; */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.638), transparent), url("../img/HouseHotelPool-2_1920.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.638), transparent), url("../img/pools/HouseHotelPool-2_1920.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 120vh;
@@ -18,9 +18,13 @@ main {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    /* background-color: pink; */
-    padding: 20px;
+    /*background-color: pink;
+    */padding: 20px;
     border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
 }
 .content-img {
     width: 300px;

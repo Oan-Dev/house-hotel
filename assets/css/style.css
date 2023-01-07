@@ -66,7 +66,7 @@ header, nav a  {
     -ms-transition: 0.7s ease-in-out;
     -o-transition: 0.7s ease-in-out;
 }
-nav a:hover {
+nav a:hover, header.active nav a:hover {
 color: var(--primary-color);
 }
 
@@ -92,13 +92,15 @@ nav {
 
 header.active {
     background-color: var(--secondary-color);
+    background-color: rgba(255, 255, 255, 0.608);
 }
 header.active .logo a{
-    background-color: var(--secondary-color);
+    background-color: rgba(255, 255, 255, 0.608);
+    color: #004db3 ;
 }
 
 header.active nav a {
-    color: var(--txt-color);
+    color: #000;
  }
 
  .hamburger { 

@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 :root {
-    --primary-color : #2795c5;
+    --primary-color : #36bcf6;
     --secondary-color : #fff;
     --third-color : #f5f5dc;
     --txt-color : #333;
@@ -60,14 +60,14 @@ header {
 }
 header, nav a  {
     color: var(--secondary-color);
-    transition: 0.7s ease;
-    -webkit-transition: 0.7s ease;
-    -moz-transition: 0.7s ease;
-    -ms-transition: 0.7s ease;
-    -o-transition: 0.7s ease;
+    transition: 0.7s ease-in-out;
+    -webkit-transition: 0.7s ease-in-out;
+    -moz-transition: 0.7s ease-in-out;
+    -ms-transition: 0.7s ease-in-out;
+    -o-transition: 0.7s ease-in-out;
 }
 nav a:hover {
-color: dodgerblue;
+color: var(--primary-color);
 }
 
 .logo a {

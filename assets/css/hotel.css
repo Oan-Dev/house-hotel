@@ -60,10 +60,9 @@ h1 {
 
 }
 .card:nth-child(3) {
-    background-image:  url("../img/pools/swimming-pool_640.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.638), transparent), url("../img/pools/swimming-pool_640.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    color: darkblue;
 }
 
 .card:hover {

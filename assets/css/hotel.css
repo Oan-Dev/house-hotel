@@ -28,24 +28,30 @@ h1 {
     gap: 20px;
 }
 .card {
-    min-width: 200px;
+    width: 200px;
     min-height: 300px;
     padding: 20px 10px;
-    /* background-color: pink; */
-    display: flex;
-    /* flex-direction: column; */
+     display: flex;
+    flex-direction: column;
     align-items: center;
     border-radius: 5px;
     transition: .3s ;
-    /* background-color: rgba(255, 255, 255, 0.775); */
     border-radius: 15px;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
+    /* background-color: rgba(255, 255, 255, 0.775); */
 }
 .card:nth-child(1) {
     background-image:  url("../img/pools/basement_640.jpg");
+}
+.card:nth-child(2) {
+    background-image:  url("../img/pools/pool-bar_640.jpg");
+}
+.card:nth-child(3) {
+    background-image:  url("../img/pools/swimming-pool_640.jpg");
+    color: darkblue;
 }
 
 .card:hover {

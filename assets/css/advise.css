@@ -25,12 +25,14 @@ section {
     text-align: justify;
     margin-bottom: 50px;
     padding: 20px;
+
     background-color: rgba(255, 255, 255, 0.775);
     border-radius: 15px;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
+    position: relative;
 }
 
 section h2 {
@@ -41,8 +43,9 @@ section h2 {
     margin-bottom: 15px;
  }
  .star{
+    position: absolute;
+    right: 0;
     width: max-content;
-    margin-left: 290px;
     padding: 2px 5px;
     background-color: rgb(255, 255, 255);
     border-radius: 10px ;

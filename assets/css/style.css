@@ -103,6 +103,10 @@ header.active nav a {
     color: #000;
  }
 
+ header.active .bar {
+    background-color: var(--primary-color);
+ }
+
  .hamburger { 
     display: none;
     cursor: pointer;

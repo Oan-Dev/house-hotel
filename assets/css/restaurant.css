@@ -19,6 +19,10 @@ h1 {
     color: var(--primary-color);
 
 }
+h1, h2 {
+    text-transform: uppercase;
+}
+
 /** THE CARDS */
 
 .cards {
@@ -41,12 +45,24 @@ h1 {
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
 }
+/** CARD BACKGROUNDS */
 
 .card:nth-child(1) {
     background-image: linear-gradient(rgba(0, 0, 0, 0.638), transparent), url("../img/restaurants/exclusive-banquet_640.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
+.card:nth-child(2) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.638), transparent), url("../img/restaurants/villa-cortine-palace_640.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card:nth-child(3) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.638), transparent), url("../img/restaurants/restaurant-night_640.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .card-txt {
     min-height: inherit;
     width: 100%;
@@ -100,6 +116,7 @@ h1 {
 }
 
 .menu-txt {
+    text-transform: capitalize;
     width: inherit;
     color: var(--txt-color);
     background-color: rgba(255, 255, 255);

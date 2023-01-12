@@ -147,13 +147,6 @@ h1 {
   width: 75px;
 }
 
-.menu:focus > p,
-.menu:hover > p {
-    text-overflow:ellipsis;
-}
-
-
-
 .slideInRight {
     animation-name: slideInRight;
     animation-duration: 2s;
@@ -199,3 +192,13 @@ h1 {
       opacity: 1;
     }
   }
+  
+  
+    .menu:focus > p.menu-txt,
+    .menu:hover > p.menu-txt {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        
+    
+    }

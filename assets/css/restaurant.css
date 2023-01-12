@@ -135,3 +135,66 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
+.menu:focus > .slideInRight,
+.menu:hover > .slideInRight {
+  animation: slideInRight 2s ease;
+  transition: animation 2ms;
+  transform-origin: right;
+  display: flex;
+  width: 75px;
+}
+
+.menu:focus > .menu-txt,
+.menu:hover > .menu-txt {
+    text-overflow:ellipsis;
+}
+
+
+
+.slideInRight {
+    animation-name: slideInRight;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    cursor: pointer;
+    transform-origin: right;
+    display: none;
+}
+  
+  @keyframes slideInRight {
+    0% {
+      transform: translateX(100%);
+      transform-origin: right;
+      opacity: 0.8;
+      display: none;
+      width: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+      display: flex;
+      width: 75px;
+    }
+  }
+  /* rotateIn s'active bien au survol du parent */
+  .rotateIn {
+    animation-name: rotateIn;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    cursor: pointer;
+  }
+  
+  @keyframes rotateIn {
+    0% {
+      transform-origin: center;
+      transform: rotate3d(0, 0, 1, -180deg);
+      opacity: 1;
+    }
+    100% {
+      transform-origin: center;
+      transform: none;
+      opacity: 1;
+    }
+  }

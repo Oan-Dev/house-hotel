@@ -12,7 +12,7 @@ The house hotel is a showcase website for proposing a style of structure for the
  - in the end, developing the back end for completing the project.
 
 
-## Possible Bug viewed when creating this one 
+## Possible issue viewed when creating this one 
 
 - the background may creating a blur when resizing the window in responsive mode.
 

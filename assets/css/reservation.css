@@ -11,7 +11,7 @@ main {
 .container {
     width: 80%;
     margin: 10px auto;
-    color: #fff;
+    color: var(--txt-color);
 }
 
 h1, h2 {
@@ -44,15 +44,44 @@ h1, h2 {
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+.card:first-child {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.638), transparent), url("../img/pools/HouseHotelPool-2_1920.jpg");
+}
+.card:nth-child(2){
+    background-image: linear-gradient(rgba(0, 0, 0, 0.638), transparent), url("../img/pools/pool-bar_640.jpg");
+}
+.card:nth-child(3){
+    background-image: linear-gradient(rgba(0, 0, 0, 0.638), transparent), url("../img/pools/basement_640.jpg");
+}
+.card:last-child {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.638), transparent), url("../img/pools/swimming-pool_640.jpg");
+}
+
+
+.txt-card {
+    position: relative;
+}
+
 .txt-card p  {
     padding: 10px;
+    margin-bottom: 10px;
     text-align: justify;
+    background-color: rgba(255, 255, 255, 0.667);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
 }
 
 .btn {
     padding: 8px;
     background-color: rgba(255, 255, 255);
+    position: absolute;
+    right: 0;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;

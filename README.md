@@ -1,7 +1,6 @@
 # House Hotel
 
-## website showcase
-
+## Showcase Website
 The house hotel is a showcase website for proposing a style of structure for the online reservation.
 
 ## Goal
@@ -13,7 +12,7 @@ The house hotel is a showcase website for proposing a style of structure for the
  - in the end, developing the back end for completing the project.
 
 
-## a possoble Bug viewed when creating this one 
+## Possoble Bug viewed when creating this one 
 
 - the background may creating a blur when resizing the window in responsive mode.
 

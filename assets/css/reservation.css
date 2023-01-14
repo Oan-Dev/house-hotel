@@ -35,7 +35,27 @@ h1, h2 {
 .card {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    /* background-color: pink; */
+    background-color: pink;
+    padding: 20px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.txt-card p  {
+    padding: 10px;
+    text-align: justify;
+}
+
+.btn {
+    padding: 8px;
+    background-color: rgba(255, 255, 255);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }

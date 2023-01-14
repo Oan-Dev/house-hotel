@@ -14,8 +14,9 @@ main {
     color: #fff;
 }
 
-h1 {
+h1, h2 {
     text-align: center;
+    text-transform: uppercase;
     margin-bottom: 20px;
     color: var(--primary-color);
 
@@ -30,6 +31,13 @@ h1 {
     gap: 20px;
     /* background-color: darkgreen; */
 
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: pink; */
 }
 
 .spa-card {

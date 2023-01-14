@@ -71,9 +71,15 @@ color: var(--primary-color);
 }
 
 .logo a {
-    color: var(--primary-color);
-    font-size: 1.2rem;
-    font-family: 'Nunito', sans-serif;
+     color: var(--primary-color);
+     font-size: 1.2rem;
+     font-family: 'Nunito', sans-serif;
+     padding: 10px;
+     border-radius: 15px ;
+     -webkit-border-radius: 15px ;
+     -moz-border-radius: 15px ;
+     -ms-border-radius: 15px ;
+     -o-border-radius: 15px ;
 }
 
 nav {
